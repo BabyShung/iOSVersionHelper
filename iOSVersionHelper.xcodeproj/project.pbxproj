@@ -14,6 +14,7 @@
 		E6CB00BE1A9E255300DC3604 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CB00BD1A9E255300DC3604 /* Images.xcassets */; };
 		E6CB00C11A9E255300DC3604 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CB00BF1A9E255300DC3604 /* LaunchScreen.xib */; };
 		E6CB00CD1A9E255300DC3604 /* iOSVersionHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB00CC1A9E255300DC3604 /* iOSVersionHelperTests.m */; };
+		E6CB00D81A9E258D00DC3604 /* VersionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CB00D71A9E258D00DC3604 /* VersionHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E6CB00C61A9E255300DC3604 /* iOSVersionHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSVersionHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CB00CB1A9E255300DC3604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6CB00CC1A9E255300DC3604 /* iOSVersionHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSVersionHelperTests.m; sourceTree = "<group>"; };
+		E6CB00D61A9E258D00DC3604 /* VersionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionHelper.h; sourceTree = "<group>"; };
+		E6CB00D71A9E258D00DC3604 /* VersionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		E6CB00A41A9E255300DC3604 = {
 			isa = PBXGroup;
 			children = (
+				E6CB00D61A9E258D00DC3604 /* VersionHelper.h */,
+				E6CB00D71A9E258D00DC3604 /* VersionHelper.m */,
 				E6CB00AF1A9E255300DC3604 /* iOSVersionHelper */,
 				E6CB00C91A9E255300DC3604 /* iOSVersionHelperTests */,
 				E6CB00AE1A9E255300DC3604 /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6CB00D81A9E258D00DC3604 /* VersionHelper.m in Sources */,
 				E6CB00B91A9E255300DC3604 /* ViewController.m in Sources */,
 				E6CB00B61A9E255300DC3604 /* AppDelegate.m in Sources */,
 				E6CB00B31A9E255300DC3604 /* main.m in Sources */,
